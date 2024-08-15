@@ -12,15 +12,15 @@ class SoftwareEngineer:
     def __init__(self):
         self.name = "Aaqib Ansari"
         self.role = "Sr. Backend Developer"
-        self.experience = "3+ years"
+        self.experience = "4+ years"
         self.highest_qualification = "Master's in Engineering in Information Technology"
 
     def skills(self):
         self.skills_languages = ["Python", "Javascript", "Typescript"]
         self.skills_frameworks = ["Django", "Express"]
         self.skills_databases = ["PostgreSQl", "MongoDB", "Redis"]
-        self.skills_DevOps = ["Docker", "nginx", "AWS", ]
-        self.skills_tools = ["Git", "Kafka", "Linux", "Socket.io", "REST APIs", "Visual Studios Code", "Postman Collection"]
+        self.skills_DevOps = ["Docker", "nginx", "AWS"]
+        self.skills_tools = ["Git", "Kafka", "Linux", "Socket.io", "Celery", "REST APIs", "Microservice Architecture", "Visual Studios Code", "Postman Collection"]
 
     def say_hi(self):
         print("Thanks for dropping by, hope you find some of my work interesting.")
